@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.5,<4.0
-    - json-stream-rs-tokenizer >=0.4.16
+    - json-stream-rs-tokenizer >=0.4.17
 
 test:
   imports:
