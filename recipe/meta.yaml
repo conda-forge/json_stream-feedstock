@@ -1,13 +1,13 @@
 {% set name = "json_stream" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7a2c72f208544276c0ee3f58c11eb635f2d3c1d37c7237cac2cf6681b67f655
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: d44989a5950c3ba79beef794bdbcf7b356ae95a4e529614408faac6e813e863a
 
 build:
   noarch: python
