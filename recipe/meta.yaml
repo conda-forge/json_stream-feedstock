@@ -1,5 +1,5 @@
 {% set name = "json_stream" %}
-{% set version = "2.5.4" %}
+{% set version = "2.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9572279c832d927d25f33c79ebbb3c5a2387622961cc60e8ac132aa83b7ac26f
+  sha256: 70c001dbc16f2cacf092c021cd137a43dde2c91654ca23c6e0cb695666135869
 
 build:
   noarch: python
